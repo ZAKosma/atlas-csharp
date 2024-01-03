@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/user/Documents/CSHARP/atlas-csharp/csharp-hello-world/3-writeline/3-writeline.csproj": {}
+    "C:\\Users\\user\\Documents\\CSHARP\\atlas-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/user/Documents/CSHARP/atlas-csharp/csharp-hello-world/3-writeline/3-writeline.csproj": {
+    "C:\\Users\\user\\Documents\\CSHARP\\atlas-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/user/Documents/CSHARP/atlas-csharp/csharp-hello-world/3-writeline/3-writeline.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\CSHARP\\atlas-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
         "projectName": "3-writeline",
-        "projectPath": "/mnt/c/Users/user/Documents/CSHARP/atlas-csharp/csharp-hello-world/3-writeline/3-writeline.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/user/Documents/CSHARP/atlas-csharp/csharp-hello-world/3-writeline/obj/",
+        "projectPath": "C:\\Users\\user\\Documents\\CSHARP\\atlas-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\CSHARP\\atlas-csharp\\csharp-hello_world\\3-writeline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -38,18 +43,27 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
